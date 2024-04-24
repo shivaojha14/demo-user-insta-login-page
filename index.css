@@ -1,0 +1,92 @@
+#backgroundmainlogo {
+  background-image: url("../img/instatext.png");
+  background-position: 0px 0px;
+  background-size: 176px 258px;
+  width: 175px;
+  height: 51px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  border: none;
+}
+.horizontal-line {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0;
+    position: relative;
+}
+
+.horizontal-line:before,
+.horizontal-line:after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background-color: black;
+}
+
+.horizontal-line:before {
+    margin-right: 8px; /* Adjust space between text and line */
+}
+
+.horizontal-line:after {
+    margin-left: 8px; /* Adjust space between text and line */
+}
+
+@keyframes fadeBackground {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.background-animation {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    animation: fadeBackground 6s linear infinite;
+}
+
+#backgroundmainlogo1 {
+    animation-delay: 3s;
+    width: 16rem;
+    height: 33.5rem;
+    z-index: 1;
+    margin-left: 25rem;
+    margin-top: 4.5rem;
+}
+
+#backgroundmainlogo2 {
+    animation-delay: 4s; /* Delay the animation of this logo by 4 seconds */
+    width: 16rem;
+    height: 33.5rem;
+    z-index: 1;
+    margin-left: 25rem;
+    margin-top: 4.5rem;
+}
+
+#backgroundmainlogo3 {
+    animation-delay: 5s; /* Delay the animation of this logo by 5 seconds */
+    width: 16rem;
+    height: 33.5rem;
+    z-index: 1;
+    margin-left: 25rem;
+    margin-top: 4.5rem;
+}
+
+#backgroundmainlogo4 {
+    
+    width: 16rem;
+    height: 33.5rem;
+    z-index: 1;
+    margin-left: 25rem;
+    margin-top: 4.5rem;
+}
